@@ -7,10 +7,11 @@
     <title>Picture Perfect</title>
     <meta
       name="description"
-      content="Entrainement à l'intégration d'une maquette en HTML5 et CSS3"
+      content="Site du fabricant TAKE"
     />
-    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
+
     <!-- Open Graph data -->
     <meta property="og:title" content="Picture Perfect" />
     <meta property="og:type" content="website" />
@@ -18,326 +19,240 @@
     <meta property="og:image" content="http://example.com/image.jpg" />
     <meta
       property="og:description"
-      content="Entrainement à l'intégration d'une maquette en HTML5 et CSS3"
+      content="Site du fabricant TAKE"
     />
 
     <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="Site du fabricant TAKE" />
   </head>
+
   <body>
-    <div class="container">
-      <!--Header-->
-      <header>
-        <div class="row">
-          <div class="col-xs-2">
-            <img src="/images/logo.png" alt="Logo" />
-          </div>
-        </div>
-
-        <section id="sectionOne">
-          <div class="row">
-            <div class="col-md-5">
-              <h1>Picture perfect</h1>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Doloremque, a ipsa saepe cupiditate nobis sapiente impedit
-                consequatur minus rem distinctio, laudantium veniam vitae
-                perspiciatis iste facere, eveniet veritatis autem? Id?
-              </p>
+      <!-- Header -->
+      <header class="container-fluid" id="section1">    
+         <div class="container">
+            <div class="row ">
+                 <div class="col-6 pt-5">
+                     <img src="images/Logo.png">
+                 </div>
             </div>
-            <div class="col-offset-3 col-md-4">
-              <img src="/images/phone.png" id="phone" alt="Téléphone" />
+            <div class="row">
+                <div class="col-md-5 col-sm-5 col-xs-8 align-self-center ">               
+                    <h1 class="display-4 pb-3">Picture perfect</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                <div class="col" id="hauteur-col">               
+                </div>
             </div>
-          </div>
-        </section>
+        </div>     
       </header>
-      <!--Section  Description-->
-      <section id="description">
-        <div class="row">
-          <div class="col-md-4" id="dr1c1">
-            <h2>Start something new</h2>
+     <!-- Description -->
+     <section id="description">
+          <div class="container">
+              <div class="row" id="floatLeft">
+                  <div class="col-6 self-align-end" >
+                      <h2 class="mt-5">Start something new</h2>
+                  </div>
+                  <div class="col-6 d-none d-lg-block" id="float" >
+                      <img src="images/phone.png" class="img-fluid">
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col col-md-6">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                  <div class="col col-md-6 align-self-center">
+                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+                      </div>
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="row" id="dr2">
-          <div class="col-md-6" id="dr2c1">
-            <p class="lorem">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
-              quisquam, vel quibusdam dolore deserunt amet facilis aliquam
-              assumenda illo dolores autem, delectus rerum quos perferendis
-              libero sapiente laborum minima labore!
-            </p>
+     </section>
 
-            <p id="duis">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-              qui repellendus voluptatibus sapiente rerum officia, commodi aut,
-              ipsum cumque nisi rem molestias. Laborum deleniti quae nulla
-              veniam necessitatibus fugit. Hic.
-            </p>
+     <!-- Contenu mis en avant -->
+     <section id="featuredContent">
+          <div class="container" id="sectionThreeRange">
+              <div class="row" >
+                        <div class="col-xs-6 col-md-4 " id="bloc1">   
+                            <h2 class="pt-4">Design Quality</h2>
+                            <p class="py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p class="font-weight-bold">Find Out more <span><img src="images/fleche.png"></span></p>             
+                        </div>
+                  <div class="col-xs-6 col-md-4"id="bloc2">
+                      <h2 class="pt-4">Built to last</h2>
+                      <p class="py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <p class="font-weight-bold">Find Out more <span><img src="images/fleche.png"></span></p>
+                  </div>
+                  <div class="col-xs-6 col-md-4"id="bloc3">
+                      <h2 class="pt-4">Our clients</h2>
+                      <p class="py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <p class="font-weight-bold">Find Out more <span><img src="images/fleche.png"></span></p>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-xs-12 col-md-8"id="bloc4">
+                      <h2 class="pt-4">See up & see why</h2>
+                      <p class="py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <p class="font-weight-bold">Find Out more <span><img src="images/fleche.png"></span></p>
 
-            <p id="eaque">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. At labore
-              dolor officia hic magni ut adipisci numquam laborum autem fugiat
-              quae illo, magnam, fuga molestias, eum libero tenetur consectetur.
-              Atque.
-            </p>
+                  </div>
+                  <div class="col-xs-6 col-md-4"id="bloc5">
+                      <h2 class="pt-4">Perfect pictures</h2>
+                      <p class="py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <p class="font-weight-bold">Find Out more <span><img src="images/fleche.png"></span></p>
+                  </div>
+              </div>
           </div>
-          <div class="col-md-6" id="dr2c2">
-            <p id="nemo">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
-              consequatur quo modi pariatur et sit vitae dicta consequuntur.
-              Modi, laboriosam. Enim sed modi praesentium quam illum dolore
-              amet? Mollitia, facilis.
-            </p>
-            <p id="neque">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
-              adipisci tempore natus doloremque, quo eum, repellat sapiente
-              laboriosam exercitationem veritatis repudiandae ad enim error
-              corrupti accusamus. Qui id facere voluptate!
-            </p>
-          </div>
-        </div>
-      </section>
+     </section>
 
-      <!-- Section Contenu mis en avant-->
-      <section id="featureContent">
-        <div class="row" id="fr1">
-          <div class="col-md-4" id="fr1c1">
-            <h2>Design quality</h2>
-            <p class="lorem">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa a
-              cum aspernatur perferendis, aliquid provident. Fuga in illo
-              dolorem hic voluptate! Impedit, blanditiis distinctio. Quis
-              tempora iure corrupti voluptatibus accusamus!
-            </p>
-            <p class="gras">
-              Find out more <span><p>...</p></span>
-            </p>
+     <!-- Details -->
+     <section id="details">
+          <div class="container">
+              <h1 class="pb-5">A look at the details</h1> 
+              <div class="row">
+                  <div class="col-md-3 col-sm-6 col-xs-12">
+                      <h5 class="pb-3">Web based</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-12">
+                      <h5 class="pb-3">Performance</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-12">
+                      <h5 class="pb-3">Cultural</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-12">
+                      <h5 class="pb-3">Sustainability</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                  </div>
+              </div>  
           </div>
-          <div class="col-md-4" id="fr1c2">
-            <h2>Build to last</h2>
-            <p class="lorem">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione
-              quo porro doloribus pariatur magni maiores deleniti, tenetur
-              tempora suscipit, facilis, eius magnam vero aperiam delectus
-              voluptas distinctio labore ullam autem?
-            </p>
-            <p class="gras">
-              Find out more <span><p>...</p></span>
-            </p>
-          </div>
-          <div class="col-md-4" id="fr1c3">
-            <h2>Our clients</h2>
-            <p class="lorem">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Voluptatem dolorum nihil vel asperiores corrupti quidem,
-              repellendus aliquid, earum quod fugit perferendis facere
-              laboriosam modi consectetur minus fugiat nostrum. Corrupti, hic.
-            </p>
-            <p class="gras">
-              Find out more <span><p>...</p></span>
-            </p>
-          </div>
-        </div>
-        <div class="row" id="fr2">
-          <div class="col-md-8" id="fr2c1">
-            <h2>Sign up & see why</h2>
-            <p class="lorem">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut adipisicing.
-            </p>
-            <p class="gras" id="fr2c1p2">Get Started Now<span>→</span></p>
-            <img src="images/coeur.png" alt="image_coeur" />
-          </div>
-          <div class="col-md-4" id="fr2c2">
-            <h2>Perfect pictures</h2>
-            <p class="lorem">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut adipisicing.
-            </p>
-            <p class="gras">Find Out more<span>→</span></p>
-          </div>
-        </div>
-      </section>
-      <!--Section Details-->
-      <section id="details">
-        <div class="row" id="der1">
-          <div class="col-md-4">
-            <h2>A look at the details</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-3">
-            <p class="semi_gras">Web based</p>
-            <p class="lorem">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat
-            </p>
-          </div>
-          <div class="col-md-3">
-            <p class="semi_gras">Performance</p>
-            <p class="lorem">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat
-            </p>
-          </div>
-          <div class="col-md-3">
-            <p class="semi_gras">Clultral</p>
-            <p class="lorem">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat
-            </p>
-          </div>
-          <div class="col-md-3">
-            <p class="semi_gras">Sustainability</p>
-            <p class="lorem">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat
-            </p>
-          </div>
-        </div>
-      </section>
-      <!--Section Big Picture-->
-      <section id="bigPicture">
-        <div class="row">
-          <div class="col-md-6">
-            <h1>More power<br />behind every pixel.</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-5" id="br2c1">
-            <p class="lorem">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <p id="options">See the options <span>→</span></p>
-          </div>
-        </div>
-      </section>
-      <!--Section A propos-->
-      <section id="about">
-        <div class="row">
-          <div class="col-md-6">
-            <h2>Reasons to get onboard</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <p class="semi_gras">Web based</p>
-            <p class="lorem">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-          <div class="col-md-4">
-            <p class="semi_gras">Team login</p>
-            <p class="lorem">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-          <div class="col-md-4">
-            <p class="semi_gras">Great Support</p>
-            <p class="lorem">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-        </div>
-      </section>
-      <!--Section Gamme de prix-->
-      <section id="priceRange">
-        <div class="row">
-          <div class="col-md-5" id="pc1">
-            <p class="sm_pol" id="legacy">Legacy</p>
-            <p class="md_pol">Go it solo</p>
-            <p id="pc1p3">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco
-            </p>
-            <p class="button">Buy now $9</p>
-            <p class="icones">
-              <img src="images/ico_apple.png" alt="icone_apple" /><span
-                class="ico_space"
-                ><img src="images/ico_windows.png" alt="icone_windows"
-              /></span>
-            </p>
-          </div>
-          <div class="col-md-offset-1 col-md-6" id="pc2">
-            <p class="sm_pol" id="mostPopular">Most Popular</p>
-            <p class="md_pol" id="pc2p2">Team Plan</p>
-            <p id="pc2p3">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            </p>
-            <p class="button" id="pc2p4">Buy now $18</p>
-            <p class="icones" id="pc2p5">
-              <img src="images/ico_apple.png" alt="icone_apple" /><span
-                class="ico_space"
-                ><img src="images/ico_windows.png" alt="icone_windows"
-              /></span>
-            </p>
-          </div>
-        </div>
-      </section>
-      <!--Footer-->
-      <footer>
-        <div class="row" id="for1">
-          <div class="col-md-6">
-            <p class="semi_gras" id="get">Get in touch</p>
-            <p class="lorem">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-          <div class="col-md-offset-1 col-md-5">
-            <p class="semi_gras" id="stay">Stay in touch</p>
-            <p id="search_box">
-              <img src="images/ok.png" alt="symbole_validation" id="ok" />
-            </p>
-          </div>
-        </div>
+     </section>
 
-        <div class="row" id="for3">
-          <div class="col-md-2">
-            <p class="semi_gras">Resources</p>
-            <p>
-              Tour<br />Customers<br />Pricing and Plans<br />New Features<br />Education
-            </p>
+
+     <!-- Big picture -->
+     <section id="bigPicture" >
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-5 col-sm-7 col-xs-9">
+                      <h1 class="mb-4 mb-xs-3">More power <br/>behind every pixel.</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                      <p>See the options<span class="ml-4"><img src="images/fleche.png"></span></p>
+                  </div>    
+              </div>
           </div>
-          <div class="col-md-2">
-            <p class="semi_gras">Features</p>
-            <p>
-              Tour<br />Customers<br />Pricing and Plans<br />New Features<br />Education
-            </p>
+     </section>
+     <!-- A propos -->
+     <section id="about">
+      <div class="container">
+          <h2 class="mb-5">Reasons to get onboard</h2> 
+          <div class="row">
+              
+                  <div class="col-md-4 col-sm-4 col-xs-12">
+                      <h6 class="my-3">Web based</h6>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-12">
+                      <h6 class="my-3">Team login</h6>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-12">
+                      <h6 class="my-3">Great Support</h6>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                  </div>
+              
+          </div>  
+      </div>
+    </section>
+     <!-- Gammes de prix  -->
+     <section id="priceRanges">
+          <div class="container"> 
+              <div class="row justify-content-around">
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                      <button type="button" class="btn btn-gris mb-3 btn-sm">LEGACY</button>
+                      <h2>Go it solo</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                      <br/>
+                      <button type="submit" class="btn btn-success btn-lg">BUY NOW S9</button>
+                      <p><img src="images/apple.png" class="mx-3 my-3"><img src="images/windows.png" class="mx-3 my-3"> </p> 
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-xs-12" id="border">
+                      <button type="button" class="btn btn-violet mb-3 btn-sm">MOST POPULAR</button>
+                      <h2>Team Plan</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                      <br/>
+                      <button type="submit" class="btn btn-success btn-lg">BUY NOW S18</button>
+                      <p><img src="images/apple.png" class="mx-3 my-3"><img src="images/windows.png" class="mx-3 my-3"> </p>
+                  </div>
+              </div>  
           </div>
-          <div class="col-md-2">
-            <p class="semi_gras">How To’s</p>
-            <p>
-              Tour<br />Customers<br />Pricing and Plans<br />New Features<br />Education
-            </p>
+     </section> 
+     
+   <!-- footer  -->
+     <footer id="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6 col-sm-12">
+                  
+                      <h5 class="mb-4 mt-3">Get in Touch</h5>
+                      <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  
+                  <div class="row">
+                      <div class="col-md-4 col-6">
+                          <h5 class="mb-4">Resources</h5>
+                          <ul class="list-unstyled">
+                              <li>Tour</li>
+                              <li >customers</li>
+                              <li >Princing and Plans</li>
+                              <li >new features</li>
+                              <li >Education</li>
+                          </ul>
+                      </div>
+                      <div class="col-md-4 col-6">
+                          <h5 class="mb-4">Features</h5>
+                          <ul class="list-unstyled">
+                              <li>Tour</li>
+                              <li>customers</li>
+                              <li>Princing and Plans</li>
+                              <li>new feature</li>
+                              <li>Education</li>
+                          </ul>
+                      </div>
+                      <div class="col-md-4 col-6">
+                          <h5 class="mb-4">How To's</h5>
+                          <ul class="list-unstyled">
+                              <li>Tour</li>
+                              <li>customers</li>
+                              <li>Princing and Plans</li>
+                              <li>new feature</li>
+                              <li>Education</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-1">
+                  
+              </div>
+              <div class="col-md-5 col-xs-8 align-self-start">
+                      <div>
+                          <h5 class="mb-4">Stay in Touch</h5>
+                          <form class="form-inline">
+                                  <label for="email" class="sr-only"></label>
+                                  <input type="text" class="form-control mb-2 " id="email">
+                                  <button type="submit" class="btn btn-success mb-2"><img src="images/shape6.png" alt="..." class="img-rounded"></button>
+                          </form>
+                          <p><small> We don’t send spam. Actually, who are we kiding, we’ll spam 
+                              the shit out of you’r inbox.</small></p>
+                      </div>   
+              </div>          
           </div>
-        </div>
-      </footer>
-    </div>
+      </div>       
+     </footer>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
