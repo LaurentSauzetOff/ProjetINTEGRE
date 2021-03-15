@@ -1,8 +1,59 @@
-/*##################################*/
-/*############# GRILLE #############*/
-/*#################################*/
+/* fonts */
 
-/*############section 1 header #############*/
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("/fonts/opensans_bold/OpenSans-Bold-webfont.eot");
+  src: url("/fonts/opensans_bold/OpenSans-Bold-webfont.svg") format("svg"),
+    url("/fonts/opensans_bold/OpenSans-Bold-webfont.ttf") format("TrueType"),
+    url("/fonts/opensans_bold/OpenSans-Bold-webfont.woff") format("woff");
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("/fonts/opensans_light/OpenSans-Light-webfont.eot");
+  src: url("/fonts/opensans_light/OpenSans-Light-webfont.svg") format("svg"),
+    url("/fonts/opensans_light/OpenSans-Light-webfont.ttf") format("TrueType"),
+    url("/fonts/opensans_light/OpenSans-Light-webfont.woff") format("woff");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("/fonts/opensans_regular/OpenSans-Regular-webfont.eot");
+  src: url("/fonts/opensans_regular/OpenSans-Regular-webfont.svg") format("svg"),
+    url("/fonts/opensans_regular/OpenSans-Regular-webfont.ttf")
+      format("TrueType"),
+    url("/fonts/opensans_regular/OpenSans-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("/fonts/opensans_semibold/OpenSans-Semibold-webfont.eot");
+  src: url("/fonts/opensans_semibold/OpenSans-Semibold-webfont.svg")
+      format("svg"),
+    url("/fonts/opensans_semibold/OpenSans-Semibold-webfont.ttf")
+      format("TrueType"),
+    url("/fonts/opensans_semibold/OpenSans-Semibold-webfont.woff")
+      format("woff");
+  font-weight: bold;
+}
+
+/* general elements */
+p {
+  font-family: "OpenSans-Regular";
+}
+
+button {
+  font-family: "OpenSans-SemiBold";
+}
+
+h6 {
+  font-family: "OpenSans-Light";
+}
+
+/* header */
 .container-fluid {
   background: url(images/fondheader.png) no-repeat center;
   background-size: cover;
@@ -13,9 +64,10 @@
   height: 850px;
 }
 #section1 h1 {
-  font-weight: 200;
+  font-family: "OpenSans-Bold";
 }
-/*############section 2#############*/
+
+/* definition */
 #float {
   position: relative;
   bottom: 500px;
@@ -26,16 +78,16 @@
 }
 
 #description h2 {
-  font-weight: 300;
+  font-family: "OpenSans-SemiBold";
 }
 
-/*############section 3 contenu mis en avant #############*/
+/* contenu mis en avant */
 
 #sectionThreeRange .row {
   min-height: 280px;
 }
 #sectionThreeRange h2 {
-  font-weight: 200;
+  font-family: "OpenSans-SemiBold";
 }
 #bloc1 {
   font-size: 0.8em;
@@ -74,7 +126,7 @@
   background-color: #82ca9c;
 }
 
-/*############ section 4 details #############*/
+/* section 4 details */
 #details {
   min-height: 530px;
   display: flex;
@@ -84,13 +136,13 @@
 }
 
 #details h1 {
-  font-weight: 200;
+  font-family: "OpenSans-Bold";
 }
 #details h5 {
-  font-weight: 400;
+  font-family: "OpenSans-Regular";
 }
 
-/*############ section 5 bigpicture #############*/
+/* big picture */
 #bigPicture {
   min-height: 870px;
   background-image: url(images/bigpicture.png);
@@ -107,8 +159,8 @@
 #bigPicture .row {
   padding-bottom: 16%;
 }
-/*############ section 6 about #############*/
 
+/* about */
 #about {
   min-height: 540px;
   display: flex;
@@ -118,8 +170,8 @@
   background-color: #82ca9c;
   color: white;
 }
-/*############ section 7 price ranges #############*/
 
+/* price ranges */
 #priceRanges {
   min-height: 630px;
   display: flex;
@@ -136,7 +188,7 @@
   box-shadow: 8px 8px 8px 8px #eeeff2;
 }
 #priceRanges h2 {
-  font-weight: 200;
+  font-family: "OpenSans-SemiBold";
 }
 .btn-violet {
   background-color: #bd8cbf;
@@ -146,7 +198,8 @@
   background-color: #e1e1e1;
   color: white;
 }
-/*############ footer #############*/
+
+/* footer */
 #footer {
   background-color: #141e28;
   color: #cccdd1;
